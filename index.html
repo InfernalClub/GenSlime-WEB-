@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=1920 height=1080></canvas>
+      <canvas id="unity-canvas" style="width: 100%; height: 100%; background: #231F20"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -58,9 +58,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/GenSli 1.0.0 (Web).loader.js";
       var config = {
-        dataUrl: buildUrl + "/GenSli 1.0.0 (Web).data.br",
-        frameworkUrl: buildUrl + "/GenSli 1.0.0 (Web).framework.js.br",
-        codeUrl: buildUrl + "/GenSli 1.0.0 (Web).wasm.br",
+        dataUrl: buildUrl + "/GenSli 1.0.0 (Web).data.unityweb",
+        frameworkUrl: buildUrl + "/GenSli 1.0.0 (Web).framework.js.unityweb",
+        codeUrl: buildUrl + "/GenSli 1.0.0 (Web).wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "GenSli",
